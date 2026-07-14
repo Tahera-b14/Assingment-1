@@ -2,7 +2,8 @@
     background-color: #e5e5e5;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    ;
   }
   ul{
     display:flex;
@@ -153,7 +154,7 @@
 
 .Speaker{
     margin: auto;
-    width: 1321px;
+    width: 1000px;
     padding-bottom: 50px;
 }
 
@@ -163,11 +164,7 @@
     font-weight: bold;
     font-size: 2.5rem;
 }
-.speakers-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-}
+
 
 .speaker-cards{
     display: grid;
@@ -176,7 +173,7 @@
 }
 .card{
     border-radius: 12px;
-    width: 640px;
+    width: 500px;
     background-color: #FFFFFF;
     
 }
@@ -200,6 +197,7 @@
 .card-img img{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    width: 500px;
 }
 
 .position{
