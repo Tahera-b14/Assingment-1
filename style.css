@@ -205,3 +205,60 @@
     font-weight: 400;
     color: #575757;
 }
+
+
+
+
+/* price section */
+
+.price-section{
+    margin: auto;
+    width: 1000px;
+    padding-bottom: 50px;
+}
+
+.price{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.price-heading{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.price-card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.price-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 33px;
+}
+
+
+.price-card{
+    border-radius: 12px;
+    width: 300px;
+    background-color: #b9aeae;
+    padding: 30px;
+    
+}
+
+
+  .btn-1{
+            height: 48px;
+            width: 100%;
+            padding: 12px;
+            border-radius: 12px;
+
+            background-color: #FFFFFF;
+            border: 1px solid blue;
+            color: #000000;
+        }
+       
