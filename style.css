@@ -1,4 +1,4 @@
-  nav{
+nav{
     background-color: #e5e5e5;
     display: flex;
     justify-content: space-between;
@@ -208,7 +208,6 @@
 
 
 
-
 /* price section */
 
 .price-section{
@@ -245,20 +244,88 @@
 .price-card{
     border-radius: 12px;
     width: 300px;
-    background-color: #b9aeae;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
     padding: 30px;
     
 }
 
+.price-card h6{
+    font-size: 14px;
+    font-weight: 600;
+    color: #575757;
+    text-transform: uppercase;
+    margin: 0 0 8px;
+}
+.price-card h1{
+    font-size: 40px;
+    margin: 0;
+}
 
-  .btn-1{
-            height: 48px;
-            width: 100%;
-            padding: 12px;
-            border-radius: 12px;
+.price-card p{
+    font-size: 14px;
+    color: #575757;
+    margin: 4px 0 0;
+}
 
-            background-color: #FFFFFF;
-            border: 1px solid blue;
-            color: #000000;
-        }
-       
+
+.price-card hr{
+    border: none;
+    border-top: 1px solid #E5E5E5;
+    margin: 24px 0;
+}
+
+.price-card ul{
+    padding: 0;
+    margin: 0 0 30px;
+    list-style-position: inside;
+    color: #575757;
+    font-size: 14px;
+}
+
+.price-card-featured{
+    background-color:#10172A;
+    border: none;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 20px 40px rgba(16, 23, 42, 0.25);
+}
+
+
+.price-card-featured h6,
+.price-card-featured h1,
+.price-card-featured p,
+.price-card-featured ul{
+    color: #FFFFFF;
+}
+
+.price-card-featured hr{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-1{
+    height: 48px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-2{
+    height: 48px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+
+    background-color: #1D4ED8;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;}
