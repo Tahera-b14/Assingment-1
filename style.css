@@ -493,3 +493,41 @@ nav{
 @media (prefers-reduced-motion: reduce) {
   .about-point { transition: none; }
 }
+
+
+*/ Footer */
+
+.site-footer{
+    backgground -color: #0f172a;
+    padding: 28px 24px;
+    display:flex;
+    align-items:center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     gap: 12px;
+}
+  .footer-copy{
+    color:#94a3b8;
+    font-size: 14px;
+  }
+   
+  .footer-links{
+    display:flex;
+    gap: 28px;
+
+  }
+  .footer-links a{
+    color: #cbd5e1;
+    text-decoration:none;
+    font-size: 14px;
+  }
+  .footer-links a:hover{
+    color:#ffffff
+  }
+
+
+
+
+
+}
+
